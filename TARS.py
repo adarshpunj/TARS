@@ -6,9 +6,12 @@ import requests
 import os
 import threading
 import time
+
 switch=0
+
 def About(evnt=None):
 	os.system('''python -m webbrowser -t "https://github.com/adarshpunj/TARS"''')
+	
 def Download():
 	user_querry = str(entry.get())
 	filename = user_querry
@@ -62,11 +65,13 @@ def Download():
 		switch = 1
 	if switch==1:
 		tkMessageBox.showinfo("Success!","The subtitle has been successfully downloaded!")
+		
 def downloadThread(event):
 	global thread
 	thread = threading.Thread(target=Download)
 	thread.daemon=True
 	thread.start()
+	
 if __name__ == '__main__':
 	root = tk.Tk()
 	root.title("TARS Subtitle Downloader")

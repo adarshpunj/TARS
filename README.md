@@ -12,3 +12,5 @@
 Made with ❤ using Python.
 
 ###### PS: This script has only been tested on macOS. There might be some issues on other opreating systems.
+###### [Android version](https://github.com/adarshpunj/TARS-App)
+###### [API](https://github.com/adarshpunj/tarsAPI)

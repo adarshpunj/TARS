@@ -1,6 +1,10 @@
 #  TARS
 ### A simple python software that downloads the best rated movie subtitles.
 
+```diff
++ There's no real reason why this is called TARS. I was a freshman back when created this script, so I just named it so.
+```
+
 #### Dependencies:
 > `requests`
 > `bs4`
